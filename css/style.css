@@ -1,0 +1,274 @@
+/* inter-regular - latin */
+@font-face {
+   font-display: swap;
+   /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'),
+      /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url('../fonts/inter-v12-latin-regular.woff') format('woff');
+   /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+body {
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   color: #FFFFFF;
+   background-color: #525F48;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.container {
+   position: relative;
+   width: 100%;
+   max-height: 1078px;
+   max-width: 1000px;
+   background-color: white;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .leftside {
+   position: relative;
+
+   width: 226px;
+   height: 994px;
+   background-color: #1E1E1E;
+}
+
+
+
+.imgbox {
+   position: relative;
+   left: 15px;
+   top: 41px;
+   border-radius: 86px;
+}
+
+.Contactinfo .title {
+   color: white;
+   position: relative;
+   left: 15px;
+   padding-top: 35px;
+   padding-bottom: 10px;
+
+
+   border-bottom: solid 1px #FFFFFF;
+   width: 196px;
+}
+
+
+.Contactinfo ul li {
+   
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 20px;
+   padding-top: 5px;
+   
+}
+
+.Contactinfo .icon {
+   
+   position: relative;
+   right: 20px;
+   
+   
+}
+
+.Contactinfo .text 
+{
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+   left: 30px;
+  top: -20px; 
+}
+.Hobbyinfo .title
+{
+   position: relative;
+ left: 15px;
+ border-bottom: solid 1px #FFFFFF;
+   width: 196px;
+
+}
+.Hobbyinfo ul li 
+{
+  
+   padding-bottom: 10px;
+  
+}
+
+.Personalinfo .title
+{
+ 
+   color: white;
+   position: relative;
+   left: 15px;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   border-bottom: solid 1px #FFFFFF;
+   width: 196px;
+}
+.Personalinfo ul li 
+{
+   display: flex;
+   flex-wrap: wrap;
+   padding-right: 20px;
+   padding-top: 15px;
+   
+}
+
+.Personalinfo .icon
+{ 
+  position: relative;
+   right: 15px;
+}
+.Personalinfo .text
+{
+   
+   position: relative;
+   padding-top: 5px;
+  
+  
+}
+
+.container .rightside {
+   position: relative;
+
+   height: 994px;
+   width: 561px;
+   background-color: #FFFFFF;
+}
+.rightside .FIO 
+{
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 34px;
+color: #210D0D;
+}
+.rightside .work
+{
+  
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 25px;
+color: #210D0D;
+}
+ .rightside .workexperience   
+ {
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+color: #D9D9D9;
+border-bottom: 2px solid #000000;
+width: 380px;
+
+ }
+.rightside .administrator
+{
+
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 28px;
+color: #000000;
+border-bottom: 2px solid #000000;
+width: 380px;
+
+}
+.rightside .location
+{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+
+.rightside .UX-UI
+{
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 23px;
+   line-height: 28px;
+   color: #000000;
+}
+
+.rightside .from
+{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 21px;
+   color: #000000;
+   margin-bottom: 76px;
+}
+.rightside .Education
+{
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 39px;
+   color: #D9D9D9;
+   border-bottom: 2px solid #000000;
+width: 380px;
+}
+.rightside .school
+{
+   
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
+color: #000000;
+border-bottom: 2px solid #000000;
+width: 380px;
+}
+.rightside .college
+{
+ 
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+border-bottom: 2px solid #000000;
+width: 380px;
+
+}
+.rightside .univercity 
+{
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
+color: #000000;
+
+}
